@@ -30,7 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O calendario da copa é um projeto que mostra os jogos da Copa de 2022.
+Esse projeto e um portfólio onde consta habilidades e projetos já concluidos.
 
 ## :memo: Licença
 
