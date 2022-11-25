@@ -6,6 +6,7 @@
   
 body {
     background-color: #121214;
+    min-height: 100vh;
 }
   
 * body {
@@ -13,8 +14,8 @@ body {
 }
 
 #container {
-    margin: 45px;
-    max-width: fit-content;
+    margin: 45px auto;
+    max-width: 1250px;
 }
 
 #navbar {
@@ -23,7 +24,7 @@ body {
     justify-content: space-between;
 }
 
-#navbar ul{
+#navbar ul {
     display: flex;
     gap: 30px;
 }
@@ -32,10 +33,14 @@ body {
     list-style: none;
 }
 
-#navbar ul li a{
+#navbar ul li a {
     text-decoration: none;
     font-size: 20px;
     color: white;
+}
+
+#navbar img {
+    margin-bottom: 20px;
 }
 
 #navbar ul li:hover,
@@ -60,6 +65,23 @@ footer {
     transition: transform 0.8s;
 }
 
+.card a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.card button {
+    background-color: #020203;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 1em;
+}
+
+.card p {
+    margin-top: 0.3em;
+}
+
 @media (max-width: 600px) {
     #navbar {
       flex-direction: column;
@@ -75,8 +97,10 @@ footer {
         align-items: center;
         justify-content: center;
     }
+    #navbar ul li a {
+        font-size: 18px;
+    }
 }
-
 
 #container {
     opacity: 0;
@@ -103,7 +127,7 @@ section {
 }
 
 section img {
-    width: 450px;
+    width: 400px;
     height: 450px;
 }
 
@@ -119,39 +143,43 @@ section img {
 
 .text button{
     border:none;
-    width: 125px;
+    width: 150px;
     height: 50px;
     font-weight: 700;
     font-size: 18px;
-    margin-bottom: 20px;
-    background-color: rgb(205, 205, 205);
+    margin:10px 0 10px 0;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
 }
 
 .text button:hover {
     background-color: rgb(166, 165, 165);
+    cursor: pointer;
 }
 
 main .apresentação{
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap:70px;
+    justify-content: space-evenly;
     margin: 50px 0;
 }
 
 main img {
-    width: 450px;
+    width: 400px;
     height: 450px;
 }
 
 article h1,
 main h1,
-.pro h1{
+.project h1{
     border-top: 1px solid #020203;
     padding: 50px 0;
     text-align: center;
     font-size: 40px;
+    color: white;
+}
+
+main h2 {
     color: white;
 }
 
@@ -167,7 +195,7 @@ main h1,
     border-top: 1px solid #020203;
 }
 
-#row {
+#row, #listProject {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -181,6 +209,9 @@ main h1,
     display: block;
     margin-bottom: 20px;
   }
+  main h2 {
+    margin-top: 50px;
+    }
 }
 
 .card {
@@ -207,6 +238,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 20px;
     border-radius: 15px;
     background-color: #363636;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
