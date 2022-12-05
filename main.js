@@ -19,7 +19,7 @@ document.querySelector("#row").innerHTML =
   skill(
     "JAVASCRIPT",
     "javascript",
-    "Basic knowledge of javascript, such as object prototyping and user interaction.<br>In addition to using some libraries like JQUERY and REACT.") +
+    "Basic knowledge of javascript, such as object prototyping and user interaction.<br>In addition to using some libraries like REACT.") +
   skill(
     "REACT",
     "react",
@@ -53,4 +53,10 @@ document.querySelector("#listProject").innerHTML =
     "imovi-icon",
     "Bootstrap real estate website",
     "https://mendeseduardo.github.io/iMovi/"
+  ) +
+  project(
+    "News home page",
+    "noticia",
+    "Front end mentor challenge",
+    "https://mendeseduardo.github.io/pg_de_noticia/"
   )
