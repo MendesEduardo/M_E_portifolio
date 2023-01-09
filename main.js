@@ -71,4 +71,16 @@ document.querySelector("#listProject").innerHTML =
     "advice",
     "Generator app using the Advice Slip API",
     "https://mendeseduardo.github.io/Advice_generator_app/"
+  ) +
+  project(
+    "Social media dashboard",
+    "dashboard",
+    "Social media dashboard using React.js",
+    "https://mendeseduardo.github.io/Social_Media_Dashboard/"
+  ) +
+  project(
+    "Adding People",
+    "adding",
+    "Site to add people in selected locations according to roles using React.js",
+    "https://mendeseduardo.github.io/organo/"
   )
