@@ -61,12 +61,6 @@ document.querySelector("#listProject").innerHTML =
     "https://mendeseduardo.github.io/pg_de_noticia/"
   ) +
   project(
-    "Time control panel",
-    "timeControl",
-    "Front end mentor challenge with javascript",
-    "https://mendeseduardo.github.io/time_control_panel/"
-  ) +
-  project(
     "Advice generator app",
     "advice",
     "Generator app using the Advice Slip API",
